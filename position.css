@@ -4,6 +4,7 @@
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     text-shadow: 4px 4px 3px lightgreen;
     box-shadow: 4px 4px 3px lightgreen;
     z-index: 9;
@@ -33,83 +34,55 @@
     right: 40%;
     text-align: center;
 }
-.body{
-    background-size: fill;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    background-position: center center; /*Centers the image in the viewport*/
-    background-attachment: scroll; /*Keeps the background fixed when scrolling */
-    margin: 0;
-    padding: 0;
-    border-radius: 5%;
-}
-
 .color{
     background-color: skyblue;
     position: relative;
-    /* margin-top: 110px; */
-    top: 7rem;
+    margin-top: 110px;
+    /* top: 7rem; */
 }
 img{
     width: 300px;
+    border-radius: 5%;
+    position: absolute;
 }
 .img{
-    position: absolute;
     z-index: 8;
     top: 30rem;
     left: 37.3rem;
-    border-radius: 5%;
 }
 .img1{
-    position: absolute;
     z-index: 7;
     top: 0rem;
-    border-radius: 5%;
 }
 .img2{
-    position: absolute;
     z-index: 6;
     top: 0rem;
     right: 0rem;
-    border-radius: 5%;
 }
 .img3{
-    position: absolute;
     z-index: 5;
     top: 20rem;
-    border-radius: 5%;
 }
 .img4{
-    position: absolute;
     z-index: 4;
     top: 20rem;
     right: 0rem;
-    border-radius: 5%;
 }
 .img5{
-    position: absolute;
     z-index: 3;
     top: 40rem;
-    border-radius: 5%;
 }
 .img6{
-    position: absolute;
     z-index: 2;
     top: 40rem;
     right: 0rem;
-    border-radius: 5%;
 }
 .img7{
-    position: absolute;
     z-index: 1;
     top: 60rem;
-    border-radius: 5%;
 }
 .img8{
-    position: absolute;
     z-index: 0;
     top: 60rem;
     right: 0rem;
-    border-radius: 5%;
 }
